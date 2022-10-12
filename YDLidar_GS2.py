@@ -86,7 +86,7 @@ class YDLidar_GS2:
 
         return checkCode, packetHeaderNumber, addressNumber, commandTypeNumber, dataLengthNumber
 
-def getData(self):
+    def getData(self):
         while(1):
             datas = self.ser.read(331)
 
